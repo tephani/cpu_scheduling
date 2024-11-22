@@ -49,3 +49,35 @@ python cpu_scheduling.py
 
 6. The program will also display the average Turnaround Time and average Waiting Time for all processes.
 
+### Example Run
+![Input](sample_input(FCFS).png)
+
+```
+CPU Scheduling Algorithms
+1. First-Come-First-Serve (FCFS)
+2. Shortest Job First (Non-Preemptive)
+3. Priority Scheduling (Non-Preemptive)
+4. Round Robin (Preemptive)
+5. Exit
+Enter your choice: 1
+Enter number of processes: 3
+Enter arrival time for Process 1: 2
+Enter burst time for Process 1: 15
+Enter arrival time for Process 2: 3
+Enter burst time for Process 2: 30
+Enter arrival time for Process 3: 5
+Enter burst time for Process 3: 20
+```
+
+The program will display the results in a table along with a Gantt chart for the selected algorithm.
+
+### Example Output
+![Output](sample_output(FCFS).png)
+
+## Gantt Chart:
+The program also generates a Gantt chart to visually represent the execution timeline of the processes. 
+
+### Notes
+- The program uses **non-preemptive** scheduling algorithms for FCFS, SJF, and Priority Scheduling.
+- **Round Robin** is a preemptive algorithm where each process getrs a fixed time quantum.
+- The metrics (Turnaround and Waiting Time) are calculated for each processes and averages are displayed at the end.
